@@ -98,8 +98,8 @@ class App extends Component {
        {this.Tela(this.state.valorTela, this.state.resultado)}
        <div className='botoes'>
          {this.Botao('AC',()=>this.limparTela())}
-         {this.Botao('(',()=>this.addDigitalTela('('))}
-         {this.Botao(')',()=>this.addDigitalTela(')'))}
+         {this.Botao('+/-',()=>this.addDigitalTela('-'))}
+         {this.Botao('%',()=>this.addDigitalTela('%'))}
          {this.Botao('/',()=>this.addDigitalTela('/'))}
          {this.Botao('7',()=>this.addDigitalTela('7'))}
          {this.Botao('8',()=>this.addDigitalTela('8'))}
