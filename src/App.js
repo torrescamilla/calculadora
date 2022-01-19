@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './main.css';
 
-
+//Teste
 class App extends Component {
   constructor(props){
     super(props);
