@@ -90,8 +90,10 @@ class App extends Component {
     }
   }
   render() {
+
     return (
-      <div className='container'>
+      
+      <div className="container">
        <h3>Calculadora</h3>
        {this.Tela(this.state.valorTela, this.state.resultado)}
        <div className='botoes'>
@@ -118,12 +120,8 @@ class App extends Component {
 
        </div>
       </div>
-      
-
-      
     );
   }
-
 }
 
 export default App;
